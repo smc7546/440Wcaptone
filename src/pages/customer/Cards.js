@@ -45,7 +45,7 @@ const Cards = () => {
                   trigger={<button1>Renew</button1>}
                   position="center"
                   closeOnDocumentClick
-                  modal nested>
+                  modal >
                   {
                     close => (
                       <div className='popup-container'>
@@ -77,7 +77,8 @@ const Cards = () => {
                         <Popup
                           trigger={<button13> Continue </button13>}
                           position="center"
-                          modal nested>
+                          closeOnDocumentClick
+                          modal >
                           {
                             close => (
                               <div className="req-sent">
@@ -104,7 +105,8 @@ const Cards = () => {
                 <Popup
                   trigger={<button7>Refill</button7>}
                   position="center"
-                  modal nested>
+                  closeOnDocumentClick
+                  modal >
                   {
                     close => (
                       <div className='popup-container'>
@@ -207,7 +209,7 @@ const Cards = () => {
               <Popup
                 trigger={<img className='card-button' img src='./popoutIcon.png'>< /img> }
                 position="center"
-                modal nested>
+                modal >
                 {
                   close => (
                     <div className="popup-container-more-info">
@@ -270,7 +272,7 @@ const Cards = () => {
                 <Popup
                   trigger={<button1>Renew</button1>}
                   position="center"
-                  modal nested>
+                  modal >
                   {
                     close => (
                       <div className='popup-container'>
@@ -302,7 +304,7 @@ const Cards = () => {
                           <Popup
                             trigger={<button13> Continue </button13>}
                             position="center"
-                            modal nested>
+                            modal >
                             {
                               close => (
                                 <div className="req-sent">
@@ -328,7 +330,7 @@ const Cards = () => {
               <Popup
                 trigger={<img className='card-button' img src='./popoutIcon.png'>< /img> }
                 position="center"
-                modal nested>
+                modal >
                 {
                   close => (
                     <div className="popup-container-more-info">
