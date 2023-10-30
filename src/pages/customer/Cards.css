@@ -47,6 +47,102 @@ h3 {
   letter-spacing: .25px!important;
 }
 
+h5 {
+  text-align: left;
+  font-family: Nunito Sans, sans-serif!important;
+  color: #6c7784;
+  line-height: 1em;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+
+  margin-top: 15px;
+  cursor: default;
+}
+
+h6 {
+  text-align: left;
+  font-family: Nunito Sans, sans-serif!important;
+  color: black;
+  line-height: 1em;
+  font-size: .95rem;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+
+  margin: 0px;
+}
+
+h7 {
+  text-align: left;
+  font-family: Nunito Sans, sans-serif!important;
+  color: #4c4c4c;
+  line-height: 1em;
+  font-size: .70rem;
+  font-weight: 550;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+
+  margin: 0px;
+}
+
+h8 {
+  text-align: left;
+  font-family: Nunito Sans, sans-serif!important;
+  color: black;
+  line-height: 1em;
+  font-size: .95rem;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+h9 {
+  text-align: center;
+  font-family: Nunito Sans, sans-serif!important;
+  color: #4c4c4c;
+  line-height: 1em;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+
+  padding-left: 30px;
+
+}
+
+body {
+ margin-top: 10px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-bottom: 10px;
+
+}
+
 p {
   display: left;
   justify-content: left!important;
@@ -73,14 +169,41 @@ p1 {
   line-height: 1em;
   font-size: .9rem;
   font-weight: 450;
-  border: none;
-  text-decoration: none;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+}
+
+p2 {
+  margin: 10px;
+
+}
+
+.a1 {
+  font-family: Nunito Sans, sans-serif!important;
+  color: #212529;
+  line-height: 1em;
+  font-size: .9rem;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+}
+
+.a1:hover {
+  cursor: pointer;
+  color: #742f7c!important;
+  font-family: Nunito Sans, sans-serif!important;
   white-space: nowrap;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   letter-spacing: .25px!important;
+}
 
-  text-align: left;
+ul {
+ margin-bottom: 30px;
+
 }
 
 available, .available {
@@ -114,6 +237,9 @@ available, .available {
   flex-direction: row;
   margin-bottom: 20px;
   margin-left: 10px;
+  margin-right: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
   place-content: left;
   padding-left: 5px;
   box-sizing: border-box;
@@ -122,7 +248,7 @@ available, .available {
   align-self: flex-start;
 
   height: 125px;
-  width: 75%;
+  width: 80%;
 
   background: white;
   border-radius: .5rem;
@@ -263,6 +389,10 @@ button4 { /* Cancel  */
   color: white;
   border: none;
   border-radius: .5rem;
+
+  position: absolute;
+  left: 30px;
+  top: 120px;
 }
 
 button5 { /* Ok button */
@@ -308,7 +438,7 @@ button6 { /* Invalid Renew */
 
   width: 85px;
   text-align: center;
-  cursor: pointer;
+  cursor: default;
 
   font-family: Nunito Sans,sans-serif!important;
   margin-bottom: .35em;
@@ -350,8 +480,7 @@ button7 {
   border-radius: .5rem;
 }
 
-button8 {
-  align-self: flex-start;
+button8 { /* Yes Button */
   line-height: 25px;
 
   margin-top: 15px;
@@ -377,6 +506,168 @@ button8 {
   color: #363522;
   border: 1px solid #742F7C;
   border-radius: .5rem;
+
+  position: absolute;
+  left: 130px;
+  top: 120px;
+}
+
+button10 { /* Message Prescriber */
+  align-self: flex-start;
+  line-height: 25px!important;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+
+  width: 85px;
+  text-align: center;
+  cursor: pointer;
+
+  font-family: Nunito Sans,sans-serif!important;
+  margin-bottom: .35em;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  background-color: #742F7C;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+}
+
+button11 { /* Invalid Renew Info Box*/
+  align-self: flex-start;
+  line-height: 25px!important;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+
+  width: 85px;
+  text-align: center;
+  cursor: default;
+
+  font-family: Nunito Sans,sans-serif!important;
+  margin-bottom: .35em;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  background-color: #c7abca;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+}
+
+button12 { /* Pharma Cancel */
+  display: baseline;
+  line-height: 25px;
+
+  margin-top: 15px!important;
+  margin-bottom: 5px;
+  margin-left: 5px;
+
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  width: 85px;
+  text-align: center;
+  cursor: pointer;
+
+  font-family: Nunito Sans,sans-serif!important;
+  margin-bottom: .35em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: -.5px;
+  background-color: #742F7C;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+
+  position: absolute;
+  left: 15px;
+  top: 205px;
+}
+
+button13 { /* Pharma Continue */
+  line-height: 25px;
+
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+
+  font-family: Nunito Sans,sans-serif!important;
+  margin-bottom: .35em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: -.5px;
+  background-color: white;
+  color: #363522;
+  border: 1px solid #742F7C;
+  border-radius: .5rem;
+
+  position: absolute;
+  left: 110px;
+  top: 205px;
+}
+
+Select {
+  border-color: #742F7C;
+  background-color: #742F7C;
+  box-shadow: #742F7C;
+}
+
+.pharm-dropdown {
+  line-height: 25px;
+
+  background-color: white;
+  color: #363522;
+  font-family: Nunito Sans,sans-serif!important;
+  margin-bottom: .35em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: -.5px;
+  border: 1px solid #742F7C;
+  border-radius: .5rem;
+}
+
+.css-qbdosj-Input {
+  line-height: 25px;
+  border-color: #742F7C;
+  box-shadow: #742F7C;
+}
+
+.css-13cymwt-control {
+  border-color: #742F7C;
+  background-color: #742F7C;
+  box-shadow: #742F7C;
+}
+
+.css-t3ipsp-control {
+  border-color: #742F7C!important;
+  background-color: #742F7C;
+  box-shadow: #742F7C!important;
 }
 
 .li40-img {
@@ -390,6 +681,48 @@ button8 {
 
   flex-direction: row;
   display: flex;
+}
+
+.li40-more-info {
+  height: 70px;
+  width: 120px;
+
+  padding-left: 5px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-right: 5px;
+
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+.odan4mg-more-info {
+  height: 70px;
+  width: 120px;
+
+  padding-left: 5px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-right: 5px;
+
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+.tac01-more-info {
+  height: 60px;
+  width: 150px;
+
+  padding-left: 5px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-right: 5px;
+
+  position: absolute;
+  left: 20px;
+  top: 50px;
 }
 
 .flo50mcg {
@@ -445,6 +778,7 @@ button8 {
 .pharmacy-info {
   font-family: Nunito Sans,sans-serif!important;
   margin-bottom: .35em;
+  padding-left: 0px;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.875rem;
@@ -452,6 +786,10 @@ button8 {
   background-color: white;
   color:#363522;
   border: none;
+
+  position: absolute;
+  left: 15px;
+  top: 10px;
 }
 
 .pharm-header {
@@ -459,18 +797,18 @@ button8 {
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 5px;
-  justify-content: center;
-  align-items: center;
 }
 
 .refill-header, refill-header {
-  justify-content: center;
-  align-items: center;
-  margin-top: 90px;
   margin-right: 10px;
   margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   white-space: pre-wrap;
   overflow-wrap: break-word;
+
+  position: flex;
+  top: 0px;
 }
 
 .dropdown-toggle, .btn-primary, btn-primary {
@@ -491,6 +829,7 @@ button8 {
 
 .dropdown {
   margin-bottom: 15px;
+
 }
 
 .dropdown-toggle::after, .dropdown-toggle::before, .show {
@@ -539,6 +878,37 @@ button8 {
   display: flex;
   height: 45px;
   margin-right: 10px;
+  margin-left: 5px;
+}
+
+.mini-pill-img {
+  position: absolute;
+  left: 15px;
+  top: 30px;
+
+  display: flex;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.mini-clock-img {
+  position: absolute;
+  left: 15px;
+  top: 110px;
+
+  display: flex;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.mini-dr-img {
+  position: absolute;
+  left: 15px;
+  top: 120;
+
+  display: flex;
+  height: 45px;
+  margin-right: 10px;
 }
 
 .headers {
@@ -565,6 +935,7 @@ button8 {
 
 .home-tittle {
   margin-top: 5px;
+
 }
 
 .card-body {
@@ -587,17 +958,132 @@ button8 {
   -webkit-font-smoothing: antialiased;
 }
 
+.more-info-header {
+  margin-top: 25px;
+  margin-left: 5px;
+
+  padding-top: 10px;
+  padding-left: 5px;
+
+  align-self: left;
+
+  position: absolute;
+  top: 125px;
+  left: 10px;
+}
+
+.more-info-dose {
+  padding-left: 5px;
+  padding-top: 0px;
+  margin-left: 5px;
+  margin-top: 45px;
+
+  position: absolute;
+  top: 135px;
+  left: 10px;
+}
+
+.more-info-about {
+}
+
+.more-info-minis-container {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.more-info-minis {
+  margin: 5px;
+  margin-top: 10px;
+
+  justify-content: column!important;
+
+}
+
+.more-info-mini {
+
+  line-height: 25px!important;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 10px;
+
+  padding-right: 18px;
+  padding-left: 60px;
+  padding-top: 9px;
+  padding-bottom: 5px;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: left;
+  cursor: default;
+
+  font-family: Nunito Sans,sans-serif!important;
+  margin-bottom: .35em;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  background-color: #f0f3f4;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+}
+
+.popup-container-more-info {
+  height: 700px;
+  width: 450px;
+
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  justify-content: left!important;
+  flex-direction: column!important;
+  display: flex;
+
+  overflow: auto;
+  zIndex: 1000;
+  padding-right: 5px;
+}
+
+div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #f8fbff;
+  border-radius: 5px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: #9fa9bd;
+  border-radius: 5px;
+}
+
+div::-webkit-scrollbar {
+  width: 0.5em;
+  border-radius: 5px;
+}
+
 .popup-container, popup-container {
   display: flex;
   margin: 10px;
+  height: auto;
 }
 
 .popup-content {
   margin: auto;
   background: rgb(255, 255, 255);
-  width: auto;
+  width: 55%;
   height: auto;
-  padding: 5px;
+  padding-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 110px;
+  overflow: auto;
+  zIndex: 1000;
 
   justify-content: center;
   align-items: center;
@@ -614,6 +1100,7 @@ button8 {
 
 .popup-arrow {
   color: rgb(255, 255, 255);
+
 }
 
 [role='tooltip'].popup-content {
@@ -624,13 +1111,36 @@ button8 {
 .popup-overlay {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
+
+
 }
 
 [data-popup='tooltip'].popup-overlay {
   filter: blur(8px);
+
 }
 
 .button-spacing, button-spacing {
   justify-content: column!important;
   margin-top: 115px;
+}
+
+.req-sent {
+
+}
+
+.req-success {
+
+}
+
+.req-img {
+
+  flex-direction: row;
+  display: flex!important;
+  height: 150px;
+
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  margin-top: 10px;
 }
