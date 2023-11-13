@@ -13,4 +13,14 @@ public class Validate {
         } else return username.equals(testCreds.getUsername()) && password.equals(testCreds.getPassword());
     }
 
+    public static boolean doValidation(Credentials creds) {
+        String username = creds.getUsername();
+        String password = creds.getPassword();
+
+        if (username.equals(credentials1.getUsername()) && password.equals(credentials1.getPassword())) {
+            return true;
+        } else if (username.equals(credentials2.getUsername()) && password.equals(credentials2.getPassword())) {
+            return true;
+        } else return username.equals(testCreds.getUsername()) && password.equals(testCreds.getPassword());
+    }
 }
