@@ -1,0 +1,23 @@
+html, body, #app {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.login {
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+}

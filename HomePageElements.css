@@ -1,0 +1,111 @@
+
+div {
+  margin: auto;
+
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  font-family: Nunito Sans, sans-serif!important;
+  color: #363522;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-logo-complete {
+  background-color: f9f9f9;
+  padding-top: 20px;
+  padding-left: 10px;
+  height: 50px;
+  display: flex;
+  overflow-margin: hidden;
+  position: absolute;
+}
+
+.nav-container {
+  flex-direction: row;
+  place-content: stretch flex-start;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  height: 5.2857rem;
+  width: 100%;
+
+  background: white;
+  border-top: 0.5714285714em solid #823A8A;
+  box-shadow: 0 3px 6px #0000000f, 0 2px 4px #00000014;
+
+  font-family: Nunito Sans, sans-serif!important;
+  color: #363522;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav-links {
+  vertical-align: middle;
+  padding: 30px;
+  margin: auto;
+  font-family: Nunito Sans, sans-serif!important;
+  color: #6c7784;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+  list-style-type: none;
+}
+
+.nav-links-logo {
+  justify-content: left!important;
+  height: auto;
+}
+
+.nav-links-whoAmI {
+  justify-content: right!important;
+  height: auto;
+}
+
+a {
+  padding: 20px;
+  margin: auto;
+  font-family: Nunito Sans, sans-serif!important;
+  color: #6c7784;
+  line-height: 1em;
+  font-size: .875rem;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1em;
+  font-size: .875rem;
+  color: #742f7c!important;
+  font-family: Nunito Sans, sans-serif!important;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .25px!important;
+}
+
+.left-nav {
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+
+}
+
+.prescription-cards {
+  padding-top: 0;
+  padding-left: auto;
+  justify-content: left;
+}
